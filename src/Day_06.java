@@ -26,6 +26,20 @@ class number{
         }
 
     }
+    void pettern3(){
+        int size = 5; // Size of the pattern
+
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                if (i == size - 1 || j == 0 || i == j) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+    }
 
 }
 
@@ -34,8 +48,9 @@ class number{
 public class Day_06 {
     public static void main(String[] args) {
         number nu=new number();
-        nu.pettern();
-        nu.pettern2();
+//        nu.pettern();
+//        nu.pettern2();
+        nu.pettern3();
 
     }
 }
