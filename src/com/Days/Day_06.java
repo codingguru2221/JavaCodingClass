@@ -48,8 +48,8 @@ class number{
 public class Day_06 {
     public static void main(String[] args) {
         number nu=new number();
-//        nu.pettern();
-//        nu.pettern2();
+        nu.pettern();
+        nu.pettern2();
         nu.pettern3();
 
     }

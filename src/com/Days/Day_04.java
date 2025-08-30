@@ -1,3 +1,5 @@
+package com.Days;
+
 import java.util.Scanner;
 
 class Star {
